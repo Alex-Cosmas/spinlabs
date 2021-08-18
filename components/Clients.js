@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Clients() {
   return (
     <>
@@ -7,20 +9,37 @@ export default function Clients() {
           <h1>We have built solutions for </h1>
 
           <div className='py-12'>
-            <div className='grid grid-cols-3 gap-4 pr-6 text-center'>
-              <div className='opacity-70 hover:opacity-100'>
-                <img src='/Lawyers Hub.png' alt='' className='h-24' />
-              </div>
-
-              <div className='opacity-70 hover:opacity-100'>
-                <img
-                  src='/OFFICIAL-Picha-Logo-1-1.png'
-                  alt=''
-                  className='h-24'
+            <div className='grid grid-cols-3 gap-10 pr-6 text-center'>
+              <div className='relative w-64 h-24 opacity-70 hover:opacity-100'>
+                <Image
+                  quality={100}
+                  title='Floripa+'
+                  src='/Lawyers Hub.png'
+                  alt='Lawyers Hub'
+                  loading='eager'
+                  layout='fill'
+                  className='object-cover '
                 />
               </div>
-              <div className='opacity-70 hover:opacity-100'>
-                <img src='/Sokoplace - White.svg' alt='' className='h-24' />
+              <div className='relative w-64 h-24 opacity-70 hover:opacity-100'>
+                <Image
+                  quality={100}
+                  title='Floripa+'
+                  src='/OFFICIAL-Picha-Logo-1-1.png'
+                  alt='Lawyers Hub'
+                  loading='eager'
+                  layout='fill'
+                />
+              </div>
+              <div className='relative w-64 h-24 opacity-70 hover:opacity-100'>
+                <Image
+                  quality={100}
+                  title='Floripa+'
+                  src='/Sokoplace - White.svg'
+                  alt='Lawyers Hub'
+                  loading='eager'
+                  layout='fill'
+                />
               </div>
             </div>
           </div>
