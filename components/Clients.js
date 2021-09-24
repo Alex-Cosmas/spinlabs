@@ -9,7 +9,7 @@ export default function Clients() {
           <h1>We have built solutions for </h1>
 
           <div className='py-12'>
-            <div className='grid grid-cols-3 gap-10 pr-6 text-center'>
+            <div className='grid gap-10 pr-6 text-center md:grid-cols-3'>
               <div className='relative w-64 h-24 opacity-70 hover:opacity-100'>
                 <Image
                   quality={100}

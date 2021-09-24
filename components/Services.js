@@ -8,7 +8,7 @@ export default function Services() {
 
           <div className='flex'>
             <div className='py-12'>
-              <div className='grid grid-cols-3 gap-4 pr-6'>
+              <div className='grid gap-4 pr-6 md:grid-cols-3'>
                 <div className='p-6 text-gray-900 bg-white rounded-sm shadow-md'>
                   <h2 className='py-3 font-semibold'>Digital strategy</h2>
                   <p>
